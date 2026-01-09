@@ -1,0 +1,39 @@
+# ───────────── Python ─────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# ───────────── Entornos virtuales ─────────────
+venv/
+.venv/
+ENV/
+env/
+bin/
+lib/
+lib64/
+pyenv.cfg
+
+# ───────────── Variables sensibles ─────────────
+.env
+.env.*
+!.env.example
+
+# ───────────── Archivos generados por el proyecto ─────────────
+drafts_txt/
+*.log
+
+# ───────────── Correos de entrada ─────────────
+emails.txt
+
+# ───────────── Sistema operativo ─────────────
+.DS_Store
+Thumbs.db
+
+# ───────────── IDEs / Editores ─────────────
+.vscode/
+.idea/
+*.swp
+*.swo
